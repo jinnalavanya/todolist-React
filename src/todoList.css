@@ -1,0 +1,44 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 20%; */
+    max-width: 400px;
+    padding: 20px;
+    background-color: purple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.add-button {
+padding: 8px 16px;
+font-size: 16px;
+background-color: aqua;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+  }
+
+.task-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.toggle-button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
